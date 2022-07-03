@@ -29,17 +29,19 @@
             </v-col>
             <v-col cols="11" lg="3">
                 <v-card class="ml-lg-10 pa-5">
-                    <template>
-                        <div class="ad-container">
-                            <Adsense
-                                data-ad-client="ca-pub-4949249535095614"
-                                data-ad-slot="8863986558"
-                                data-ad-format="auto"
-                                data-full-width-responsive="true"
-                            >
-                            </Adsense>
-                        </div>
-                    </template>
+                    <v-card class="mb-5">
+                        <template>
+                            <div class="ad-container">
+                                <Adsense
+                                    data-ad-client="ca-pub-4949249535095614"
+                                    data-ad-slot="8863986558"
+                                    data-ad-format="auto"
+                                    data-full-width-responsive="true"
+                                >
+                                </Adsense>
+                            </div>
+                        </template>
+                    </v-card>
                     <div class="text-h6">Suggestions</div>
                     <v-divider class="mb-5 mt-2"></v-divider>
                     <div class="text-h6 mb-2">Manga</div>
