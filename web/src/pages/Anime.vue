@@ -66,6 +66,9 @@
             }
         },
         methods: {
+            goto(title) {
+                this.$router.push(`/azt-webmagz/manga/${title}`);
+            },
             animeData(title) {
                 this.$router.push(`/azt-webmagz/anime/${title}`)
             }
