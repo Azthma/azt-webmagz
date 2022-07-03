@@ -11,11 +11,35 @@
                             <div class="summary pt-4">{{item.description}}</div>
                         </v-card>
                         <v-divider class="mt-8"></v-divider>
+                        <v-card v-if="(index + 1) == 3 || (index + 1) == 6">
+                            <template>
+                                <div class="ad-container">
+                                    <Adsense
+                                        data-ad-client="ca-pub-4949249535095614"
+                                        data-ad-slot="8863986558"
+                                        data-ad-format="auto"
+                                        data-full-width-responsive="true"
+                                    >
+                                    </Adsense>
+                                </div>
+                            </template>
+                        </v-card>
                     </v-col>
                 </v-row>
             </v-col>
             <v-col cols="11" lg="3">
                 <v-card class="ml-lg-10 pa-5">
+                    <template>
+                        <div class="ad-container">
+                            <Adsense
+                                data-ad-client="ca-pub-4949249535095614"
+                                data-ad-slot="8863986558"
+                                data-ad-format="auto"
+                                data-full-width-responsive="true"
+                            >
+                            </Adsense>
+                        </div>
+                    </template>
                     <div class="text-h6">Suggestions</div>
                     <v-divider class="mb-5 mt-2"></v-divider>
                     <div class="text-h6 mb-2">Manga</div>

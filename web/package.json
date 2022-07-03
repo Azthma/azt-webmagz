@@ -11,7 +11,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-google-adsense": "^1.10.1",
     "vue-router": "^3.5.4",
+    "vue-script2": "^2.1.0",
     "vuetify": "^2.6.0"
   },
   "devDependencies": {

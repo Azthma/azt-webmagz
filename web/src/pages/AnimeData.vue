@@ -13,24 +13,48 @@
                     <v-col>
                         <v-card flat>
                             <v-row>
-                                <v-col cols="4">
+                                <v-col cols="8" lg="4">
                                     <div class="text-h6">{{index + 1}}. {{item.title}}</div>
                                     <div class="text-body-1 font-weight-light ml-5"><strong>Year:</strong> {{item.year}}</div>
                                     <div class="text-body-1 font-weight-light ml-5"><strong>Status:</strong> {{item.status}}</div>
                                     <v-img class="ma-5" :src="item.image"></v-img>
                                 </v-col>
-                                <v-col cols="7">
+                                <v-col cols="11" lg="7">
                                     <div class="summary mb-5">{{item.summary_1}}</div>
                                     <div class="summary">{{item.summary_2}}</div>
                                 </v-col>
                             </v-row>
                         </v-card>
                         <v-divider class="mt-8"></v-divider>
+                        <v-card v-if="(index + 1) == 3 || (index + 1) == 6">
+                            <template>
+                                <div class="ad-container">
+                                    <Adsense
+                                        data-ad-client="ca-pub-4949249535095614"
+                                        data-ad-slot="8863986558"
+                                        data-ad-format="auto"
+                                        data-full-width-responsive="true"
+                                    >
+                                    </Adsense>
+                                </div>
+                            </template>
+                        </v-card>
                     </v-col>
                 </v-row>
             </v-col>
             <v-col cols="11" lg="3">
                 <v-card class="ml-lg-10 pa-5">
+                    <template>
+                        <div class="ad-container">
+                            <Adsense
+                                data-ad-client="ca-pub-4949249535095614"
+                                data-ad-slot="8863986558"
+                                data-ad-format="auto"
+                                data-full-width-responsive="true"
+                            >
+                            </Adsense>
+                        </div>
+                    </template>
                     <div class="text-h6">Suggestions</div>
                     <v-divider class="mb-5 mt-2"></v-divider>
                     <v-row v-for="item in suggestions" :key="item.title">
