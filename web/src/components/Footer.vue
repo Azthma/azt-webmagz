@@ -28,38 +28,38 @@
     export default {
         methods: {
             home() {
-                if (this.$route.path != '/') {
-                    this.$router.push('/')
+                if (this.$route.path != '/azt-webmagz/') {
+                    this.$router.push('/azt-webmagz/')
                 }
             },
             manga() {
-                if (this.$route.path != '/manga') {
-                    this.$router.push('/manga')
+                if (this.$route.path != '/azt-webmagz/manga') {
+                    this.$router.push('/azt-webmagz/manga')
                 }
             },
             anime() {
-                if (this.$route.path != '/anime') {
-                    this.$router.push('/anime')
+                if (this.$route.path != '/azt-webmagz/anime') {
+                    this.$router.push('/azt-webmagz/anime')
                 }
             },
             movie() {
-                if (this.$route.path != '/movie') {
-                    this.$router.push('/movie')
+                if (this.$route.path != '/azt-webmagz/movie') {
+                    this.$router.push('/azt-webmagz/movie')
                 }
             },
             zamboanga() {
-                if (this.$route.path != '/tourism/zamboanga') {
-                    this.$router.push('/tourism/zamboanga')
+                if (this.$route.path != '/azt-webmagz/tourism/zamboanga') {
+                    this.$router.push('/azt-webmagz/tourism/zamboanga')
                 }
             },
             cebu() {
-                if (this.$route.path != '/tourism/cebu') {
-                    this.$router.push('/tourism/cebu')
+                if (this.$route.path != '/azt-webmagz/tourism/cebu') {
+                    this.$router.push('/azt-webmagz/tourism/cebu')
                 }
             },
             manila() {
-                if (this.$route.path != '/tourism/manila') {
-                    this.$router.push('/tourism/manila')
+                if (this.$route.path != '/azt-webmagz/tourism/manila') {
+                    this.$router.push('/azt-webmagz/tourism/manila')
                 }
             },
         }

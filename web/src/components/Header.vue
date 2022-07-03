@@ -65,16 +65,16 @@
             return {
                 tab: null,
                 items: [
-                    {name: 'Home', link: '/'},
-                    {name: 'Manga', link: '/manga'},
-                    {name: 'Anime', link: '/anime'},
-                    {name: 'Movie', link: '/movie'},
+                    {name: 'Home', link: '/azt-webmagz/'},
+                    {name: 'Manga', link: '/azt-webmagz/manga'},
+                    {name: 'Anime', link: '/azt-webmagz/anime'},
+                    {name: 'Movie', link: '/azt-webmagz/movie'},
                 ],
                 tourism: "Philippines",
                 destinations: [
-                    {name: 'Zamboanga', link: '/tourism/zamboanga'},
-                    {name: 'Cebu', link: '/tourism/cebu'},
-                    {name: 'Manila', link: '/tourism/manila'},
+                    {name: 'Zamboanga', link: '/azt-webmagz/tourism/zamboanga'},
+                    {name: 'Cebu', link: '/azt-webmagz/tourism/cebu'},
+                    {name: 'Manila', link: '/azt-webmagz/tourism/manila'},
                 ]
             }
         },

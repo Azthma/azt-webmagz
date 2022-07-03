@@ -78,7 +78,7 @@
         },
         methods: {
             goto(title) {
-                this.$router.push(`/manga/${title}`);
+                this.$router.push(`/azt-webmagz/manga/${title}`);
                 this.title = this.$route.params.title;
                 if (this.title == 'Top 10 Classic Manga') {
                     this.classics();

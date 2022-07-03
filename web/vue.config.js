@@ -1,5 +1,5 @@
 module.exports = {
-  // publicPath: '/azt-webmagz/',
+  publicPath: '/azt-webmagz/',
   transpileDependencies: [
     'vuetify'
   ]

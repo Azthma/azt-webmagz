@@ -7,21 +7,34 @@ const Home = () => import("../pages/Home.vue");
 const Manga = () => import("../pages/Manga.vue");
 const MangaData = () => import("../pages/MangaData.vue");
 
+const Anime = () => import("../pages/Anime.vue");
+const AnimeData = () => import("../pages/AnimeData.vue");
+
 const routes = [
     {
-        path: "/",
+        path: "/azt-webmagz/",
         name: "home",
         component: Home,
     },
     {
-        path: "/manga",
+        path: "/azt-webmagz/manga",
         name: "manga",
         component: Manga,
     },
     {
-        path: "/manga/:title",
+        path: "/azt-webmagz/manga/:title",
         name: "mangaData",
         component: MangaData,
+    },
+    {
+        path: "/azt-webmagz/anime",
+        name: "anime",
+        component: Anime,
+    },
+    {
+        path: "/azt-webmagz/anime/:title",
+        name: "animeData",
+        component: AnimeData,
     },
 ];
 
